@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
-
+import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App">
@@ -33,7 +33,9 @@ function App() {
     </div>
 </form>
       </header>
-      
+      <>
+      <Contact />
+      </>
     </div>
   );
 }
